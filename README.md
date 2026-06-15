@@ -32,7 +32,7 @@ meu-curriculo-web/
 
  O site em si (HTML/CSS/JS) já funciona normal pelo link do GitHub Pages, ou abrindo o index.html no navegador.
 
- Já o formulário de contato depende do PHP, e o GitHub Pages não executa PHP. Pra testar essa parte, precisa rodar localmente com o XAMPP (ou outro servidor com PHP): coloca a pasta dentro da htdocs, liga o Apache e acessa pelo localhost. Ao enviar o formulário, o contato.php valida os campos (nome, email e mensagem) e salva a mensagem em um arquivo mensagens.txt.
+ Já o formulário de contato depende do PHP, e o GitHub Pages não executa PHP. Pra testar essa parte, precisamos rodar localmente com o XAMPP (ou outro servidor com PHP): coloca a pasta dentro da htdocs, liga o Apache e acessa pelo localhost. Ao enviar o formulário, o contato.php valida os campos (nome, email e mensagem) e salva a mensagem em um arquivo mensagens.txt.
 
 ## O que tem no site
 
