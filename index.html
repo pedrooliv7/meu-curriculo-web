@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pedro Higor | Meu currículo web</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header class="menu">
+
+        <div class="container">
+
+            <h2 class="logo">
+                    Meu currículo web
+            </h2>
+
+            <nav>
+
+                <ul class="nav-list">
+
+                    <li>
+                        <a href="#sobre">Sobre</a>
+                    </li>
+
+                    <li>
+                        <a href="#habilidades">Habilidades</a>
+                    </li>
+
+                    <li>
+                        <a href="#formacao">Formação</a>
+                    </li>
+
+                    <li>
+                        <a href="#projetos">Projetos</a>
+                    </li>
+                    <li> 
+                        <a href="#contato-info">Contato</a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <section class="hero">
+
+        <img src="assets/imagens/art-pfp.png"
+             alt="Foto de avatar"
+             class="foto">
+
+        <h1>
+            Pedro Higor
+        </h1>
+
+        <p>
+            Aluno de ciência da computação • Desenvolvedor Web
+        </p>
+
+    </section>
+
+
+    <section id="sobre" class="section">
+
+        <div class="container">
+
+            <h2 class="titulo-section">
+                Sobre Mim
+            </h2>
+
+            <div class="card">
+
+                <p>
+                    Estou atualmente com 20 anos e cursando ciência da computação na Estácio. Desde pequeno tenho interesse por tecnologia e venho desenvolvendo minhas habilidades na área de desenvolvimento web.
+
+                </p>
+
+                <br>
+
+                <p>
+                    Já cursei programação de jogos e designer na Escola de Entretenimento Zion, além de possuir inglês avançado.
+                </p>
+
+            </div>
+            <div class="card">
+
+                <h3>
+                    Objetivo Profissional
+                </h3>
+
+                <p>
+                    Busco uma oportunidade como estágio ou projeto júnior na área de desenvolvimento web, para aplicar meus conhecimentos em HTML, CSS, JavaScript e PHP e continuar aprendendo novas tecnologias no dia a dia.
+                </p>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="habilidades" class="section">
+
+        <div class="container">
+
+            <h2 class="titulo-section">
+                Habilidades
+            </h2>
+
+            <div class="grid">
+
+                <div class="card">
+                    HTML
+                </div>
+
+                <div class="card">
+                    CSS
+                </div>
+
+                <div class="card">
+                    JavaScript
+                </div>
+
+                <div class="card">
+                    PHP
+                </div>
+
+                <div class="card">
+                    GitHub
+                </div>
+
+                <div class="card">
+                    Inglês Avançado
+                </div>
+
+                <div class="card">
+                    Design Gráfico
+                </div>
+
+                <div class="card">
+                    Desenvolvimento Web
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="formacao" class="section">
+
+        <div class="container">
+
+            <h2 class="titulo-section">
+                Formação
+            </h2>
+
+            <div class="card">
+
+                <h3>
+                    Ciência da computação — Estácio
+                </h3>
+
+                <p>
+                    Bacharelado em ciência da computação (em andamento)
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Programação de Jogos — Zion
+                </h3>
+
+                <p>
+                    Curso voltado para lógica, criação e desenvolvimento
+                    de jogos digitais ou páginas web.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Design Gráfico — Zion
+                </h3>
+
+                <p>
+                    Curso com foco em criação visual, identidade gráfica
+                    e ferramentas de design.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="projetos" class="section">
+     
+        <div class="container">
+
+            <h2 class="titulo-section">
+                Projetos
+            </h2>
+
+            <div class="card">
+
+                <h3>
+                    Currículo Online
+                </h3>
+
+                <p>
+                    Projeto desenvolvido utilizando HTML, CSS, JavaScript e PHP
+                    com foco em responsividade e organização visual.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contato-info" class="section">
+
+        <div class="container">
+
+            <h2 class="titulo-section">
+                Informações de Contato
+            </h2>
+
+            <div class="card">
+
+                <p>
+                    <strong>Email:</strong>
+                    pedrohigor@yahoo.com.br
+                </p>
+
+                <br>
+
+                <p>
+                    <strong>Telefone:</strong>
+                    (27) 99999-9999
+                </p>
+
+                <br>
+
+                <p>
+                    <strong>Localização:</strong>
+                    Vila Velha, ES
+                </p>
+
+                <br>
+
+                <p>
+                    <strong>GitHub:</strong>
+                    github.com/pedrohigor
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="section">
+
+        <div class="container">
+
+            <h2 class="titulo-section">
+                Entre em contato
+            </h2>
+
+            <form action="contato.php"
+                  method="POST"
+                  class="card"
+                  id="formContato">
+
+                <label for="nome">Nome</label>
+                <input type="text"
+                       id="nome"
+                       name="nome"
+                       placeholder="Seu nome"
+                       required>
+
+                <label for="email">Email</label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Seu email"
+                       required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem"
+                          name="mensagem"
+                          placeholder="Sua mensagem"
+                          required></textarea>
+
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <footer class="footer">
+
+        <p>
+            Desenvolvido por Pedro Higor • 2026
+        </p>
+
+    </footer>
+
+      <script src="assets/js/script.js"></script>
+</body>
+
+</html>
